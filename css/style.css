@@ -167,7 +167,7 @@ nav {
 /*** LANDING ***/
 #landing {
   height: 70vh;
-  background: url("https://assets.codepen.io/3364143/7btrrd.mp4") no-repeat center center/cover;
+  background: url(../images/background.gif) no-repeat center center/cover;
   display: flex;
   justify-content: center;
   align-items: center;
