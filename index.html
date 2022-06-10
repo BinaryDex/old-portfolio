@@ -1,1 +1,294 @@
-something new is coming...
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta author="Katelin Frederick">
+  <meta name="description" content="BinaryDex Portfolio">
+  <meta name="keywords" content="Dex, BinaryDex, Web Development, Development, Web Developer">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178423723-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-178423723-1');
+  </script>
+
+  <link 
+    rel="stylesheet" 
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"
+  >
+  <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css"/>
+  <link rel="stylesheet" href="css/style.css" />
+
+  <title>BinaryDex</title>
+</head>
+
+<body>
+  <!--*** NAVIGATION ***-->
+  <nav>
+    <div class="logo">
+      <h4><a href="#">BinaryDex</a></h4>
+    </div>
+    <ul class="navLinks">
+      <li><a href="#">Home</a></li>
+      <li><a href="#myWork">My Work</a></li>
+      <li><a href="#aboutMe">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="/extensions">Extensions</a></li>
+    </ul>
+    <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
+
+  <!--*** LANDING ***-->
+  <section id="landing">
+    <div class="landingOverlay">
+      <header>
+        <h1 id="title">Katelin Frederick</h1>
+        <p id="subHeading" >Web Developer</p>
+        <div class="landingButtons">
+          <a href="#myWork" class="btn animated slideInLeft" id="projectBtn">
+            Projects
+          </a>
+          <a href="/extensions" target="_blank" class="btn animated slideInRight" id="resumeBtn">
+            Extensions
+          </a>
+        </div>
+        <ul class="icons">
+          <li>
+            <a
+              class="contactIcon animated bounceInDown githubLink"
+              href="https://github.com/BinaryDex"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fab fa-github-alt" title="Github Logo"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              class="contactIcon animated bounceInDown twitterLink"
+              href="https://twitter.com/BinaryDex"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fab fa-twitter" title="Twitter Logo"></i>
+            </a>
+          </li>
+        </ul>
+
+        <span class="emailSpan">
+          Email: <a href="mailto:dex@dexhub.xyz" class="emailLink">dex@dexhub.xyz</a>
+        </span>
+
+      </header>
+    </div>
+  </section>
+
+  <!--*** MY WORK ***-->
+  <div id="pageContainer">
+    <section id="myWork">
+      <h2 class="sectionHeading">Projects</h2>
+      <div id="cardGrid">
+        <div class="cardContainer">
+          <div class="card">
+            <div class="projectImageWrapper">
+              <img class="screenshot" src="/images/itunes.png" alt="iTunes Search project screenshot">
+            </div>
+            <div class="cardBody">
+              <p class="cardTitle">iTunes Search</p>
+              <div class="buttonWrapper">
+                <a
+                  href="https://katelin-frederick.github.io/iTunesSearch/"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn"
+                >
+                  View Live Demo
+                </a>
+                <a
+                  href="https://github.com/Katelin-Frederick/iTunesSearch"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn"
+                >
+                  View on github
+                </a>
+              </div>
+              <p class="description">Site that allows the user to search the iTunes API</p>
+              <div class="projectSkills">
+                <p>Skills Used:</p>
+                <ul class="skillsList">
+                  <li class="skill">HTML</li>
+                  <li class="skill">CSS</li>
+                  <li class="skill">Javascript</li>
+                  <li class="skill">iTunes API</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="cardContainer">
+          <div class="card">
+            <div class="projectImageWrapper">
+              <img class="screenshot" src="/images/threejs.png" alt="Three.js Navigation project screenshot">
+            </div>
+            <div class="cardBody">
+              <p class="cardTitle">Three.js Nav Demo</p>
+              <div class="buttonWrapper">
+                <a
+                  href="https://katelin-frederick.github.io/threejsNavDemo/"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn"
+                >
+                  View Live Demo
+                </a>
+                <a
+                  href="https://github.com/Katelin-Frederick/threejsNavDemo"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn"
+                >
+                  View on github
+                </a>
+              </div>
+              <p class="description">Site that uses the three.js library to create a navigation element</p>
+              <div class="projectSkills">
+                <p>Skills Used:</p>
+                <ul class="skillsList">
+                  <li class="skill">SASS</li>
+                  <li class="skill">Javascript</li>
+                  <li class="skill">Three.js</li>
+                  <li class="skill">jQuery</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cardContainer">
+          <div class="card">
+            <div class="projectImageWrapper">
+              <img class="screenshot" src="/images/universitySite.png" alt="University Site project screenshot">
+            </div>
+            <div class="cardBody">
+              <p class="cardTitle">University Site</p>
+              <div class="buttonWrapper">
+                <a
+                  href="https://awesome-ptolemy-881278.netlify.app/"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn"
+                >
+                  View Live Demo
+                </a>
+                <a
+                  href="https://github.com/Katelin-Frederick/university-site"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn"
+                >
+                  View on Github
+                </a>
+              </div>
+              <p class="description">Mock-up website for a mock university</p>
+              <div class="projectSkills">
+                <p>Skills Used:</p>
+                <ul class="skillsList">
+                  <li class="skill">HTML</li>
+                  <li class="skill">CSS</li>
+                  <li class="skill">SASS</li>
+                  <li class="skill">Javascript</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--*** ABOUT ME ***-->
+    <section id="aboutMe">
+      <h2 class="sectionHeading">About Me</h2>
+      <p class="sectionInfo">
+        Hey There! I'm Dex, a Web Developer! I love creating things and taking on challenges and love to make thoughts in my mind into reality! I like learning new skills and growing the ones I already know!
+      </p>
+    </section>
+
+    <!--*** CONTACT ***-->
+    <section id="contact">
+      <h2 class="sectionHeading">Get In Touch</h2>
+      <p class="sectionInfo">
+        If you are interested in working with me or want more information about my work, I would love to hear from you!  You can contact me by filling out the form or through any of the social media platforms listed below:
+      </p>
+
+      <form name="contactForm" action="/thankyou" netlify>
+        <div class="formGroup">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" placeholder="Enter Name..." required>
+        </div>
+
+        <div class="formGroup">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="Enter Email..." required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" placeholder="Message..." cols="30" rows="10" required></textarea>
+        </div>
+
+        <input type="submit" value="Submit" class="btn" id="formSubmit">
+      </form>
+
+      <div class="contact">
+        <ul class="icons">
+          <li>
+            <a
+              class="contactIcon animated bounceInDown githubLink"
+              href="https://github.com/BinaryDex"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fab fa-github-alt" title="Github Logo"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              class="contactIcon animated bounceInDown twitterLink"
+              href="https://twitter.com/BinaryDex"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fab fa-twitter" title="Twitter Logo"></i>
+            </a>
+          </li>
+        </ul>
+  
+        <span class="emailSpan">
+          Email: <a href="mailto:dex@dexhub.xyz" class="emailLink">dex@dexhub.xyz</a>
+        </span>
+      </div>
+
+    </section>
+  </div>
+
+  <!--*** SCRIPTS ***-->
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
